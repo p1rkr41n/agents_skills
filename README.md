@@ -13,6 +13,11 @@ Thư mục chứa các kỹ năng và quy chuẩn tư duy dựa trên phương p
 *   **[`feynman-discovery-documentor`](feynman-discovery-documentor/skills/feynman-discovery-documentor/SKILL.md)**: Kỹ năng biên soạn tài liệu học tập kỹ thuật theo cấu trúc **Vòng lặp Khám phá Feynman (FDL) 4 tầng tích hợp** (Trực giác vật lý, Thực nghiệm sandbox chủ động, Mổ xẻ cơ học phần cứng kèm sơ đồ đính số thực chứng, và Thử thách stress test kèm khối code đối chiếu ORM/API Before/After).
 *   **[`feynman-perspective`](feynman-documentor/skills/feynman-perspective/SKILL.md)**: Chỉ dẫn phong cách hành văn và tư duy phản biện Richard Feynman (ưu tiên thực chứng hơn thuật ngữ sáo rỗng).
 
+### 📁 `diataxis/`
+Thư mục chứa các kỹ năng biên soạn tài liệu kỹ thuật dựa trên mô hình định hướng tài liệu tiêu chuẩn Diátaxis.
+
+*   **[`tal-documentor`](diataxis/tal-documentor/SKILL.md)**: Kỹ năng và chỉ dẫn viết tài liệu kỹ thuật theo tiêu chuẩn phân tách Diátaxis (Tutorials, How-to Guides, Reference, Explanation).
+
 ---
 
 ## Cách cài đặt và sử dụng
@@ -22,7 +27,7 @@ Thư mục chứa các kỹ năng và quy chuẩn tư duy dựa trên phương p
     git clone https://github.com/p1rkr41n/agents_skills.git
     ```
 2.  **Đăng ký các kỹ năng**:
-    *   Sao chép các thư mục kỹ năng mong muốn từ `feynman-documentor/skills/` vào thư mục tùy biến của IDE của bạn (ví dụ: `.agents/skills/` trong workspace hiện tại, hoặc `.gemini/config/skills/` trên phạm vi toàn cục).
+    *   Sao chép các thư mục kỹ năng mong muốn từ `feynman-documentor/skills/` hoặc `diataxis/` vào thư mục tùy biến của IDE của bạn (ví dụ: `.agents/skills/` trong workspace hiện tại, hoặc `.gemini/config/skills/` trên phạm vi toàn cục).
     *   Các Agent IDE sẽ tự động phát hiện và tải lên các kỹ năng dựa trên tên của chúng.
 3.  **Kích hoạt kỹ năng**:
-    *   Sử dụng trực tiếp các slash commands tương ứng (ví dụ: `/core-engine-detector` hoặc `/feynman-discovery-documentor`) trong khung chat của Agent để bắt đầu chạy quy trình.
+    *   Sử dụng trực tiếp các slash commands tương ứng (ví dụ: `/core-engine-detector`, `/feynman-discovery-documentor` hoặc `/tal-documentor`) trong khung chat của Agent để bắt đầu chạy quy trình.
