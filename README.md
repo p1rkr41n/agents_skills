@@ -12,7 +12,6 @@ This module contains customizations and custom skills adopting the analytical ri
 *   **[`core-engine-detector`](feynman-documentor/skills/core-engine-detector/SKILL.md)**: A custom skill that audits raw codebases or documentation sets. It strips away secondary wrapper files to identify the fundamental core engine (algorithms, data structures) and overlays physical hardware constraints (Disk I/O latency, Memory footprints, Thread lock contention).
 *   **[`feynman-discovery-documentor`](feynman-documentor/skills/feynman-discovery-documentor/SKILL.md)**: A custom skill that generates structured, 4-layered technical tutorials following the **Feynman Discovery Loop (FDL)** framework (Physical Analogy, Active Sandbox with prediction check, Mechanical hardware breakdown with Mermaid diagram overlays, and Stress tests with concrete Before/After database ORM/API comparisons).
 *   **[`feynman-perspective`](feynman-documentor/skills/feynman-perspective/SKILL.md)**: Rules and reasoning style guidelines defining the Richard Feynman persona, prioritizing physical demonstrations over academic jargon.
-*   **[`tal-documentor`](feynman-documentor/skills/tal-documentor/SKILL.md)**: Rules for refactoring developer documentations based on Diataxis standard guidelines.
 
 ---
 
